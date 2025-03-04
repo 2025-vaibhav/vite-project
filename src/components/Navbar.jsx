@@ -15,16 +15,6 @@ const Navbar = () => {
             Home
           </NavLink>
         </li>
-        <li>
-          <NavLink
-            to="/about"
-            className={({ isActive }) =>
-              isActive ? "text-yellow-400" : "text-white"
-            }
-          >
-            About
-          </NavLink>
-        </li>
       </ul>
     </nav>
   );
